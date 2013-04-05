@@ -233,6 +233,8 @@ string createString(Match& Pres)
     }
     else
         result.append("The map is unknown at the moment.\n\n");
+		
+	result.append("\n\nCheck out the [Scrim Thread]() here!");
 
     result.append("\n\n");
     result.append(esg::lineSeg);
